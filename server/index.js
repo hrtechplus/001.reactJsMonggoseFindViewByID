@@ -10,7 +10,7 @@ app.listen(port, () => {
 // Connect to MongoDB database using mongoose
 
 const mongoURI =
-  "mongodb+srv://hasinduonline:6O66S7eC4S2sw3Fo@cluster0.ecidohi.mongodb.net/your-database-name?retryWrites=true&w=majority";
+  "mongodb+srv://hasinduonline:6O66S7eC4S2sw3Fo@cluster0.ecidohi.mongodb.net/MERN_Learn?retryWrites=true&w=majority";
 
 mongoose
   .connect(mongoURI, { useNewUrlParser: true })

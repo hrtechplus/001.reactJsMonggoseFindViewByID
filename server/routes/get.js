@@ -2,7 +2,7 @@ const express = require("express");
 const router = express.Router();
 const YourModel = require("../models/YourModel");
 
-router.get("/", async (req, res) => {
+router.get("/get", async (req, res) => {
   try {
     // Retrieve data from the database
     const data = await YourModel.find();
