@@ -2,7 +2,8 @@ const express = require("express");
 const app = express();
 const port = process.env.PORT || 8080;
 const mongoose = require("mongoose");
-
+// middleware
+app.use(express.json());
 app.listen(port, () => {
   console.log(`Listening on port ${port}`);
 });
