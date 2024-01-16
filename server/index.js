@@ -5,7 +5,7 @@ const mongoose = require("mongoose");
 const getRouter = require("./routes/get");
 // middleware
 app.use(express.json());
-
+app.use(getRouter);
 app.listen(port, () => {
   console.log(`Listening on port ${port}`);
 });
