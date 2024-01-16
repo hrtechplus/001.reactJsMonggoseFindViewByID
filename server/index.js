@@ -2,14 +2,15 @@ const express = require("express");
 const app = express();
 const port = process.env.PORT || 8080;
 
+const mongoose = require("mongoose");
 app.listen(port, () => {
   console.log(`Listening on port ${port}`);
 });
 
 // connect to mongodb database using mongoose
 
-const mongoose = require("mongoose");
-const mongoURI = "mongodb://localhost:27017/expressmongo";
+const mongoURI =
+  "mongodb+srv://hasindu:TqCFHY7JslwNNwns@mern.tz2lnh1.mongodb.net/mern?retryWrites=true&w=majority";
 
 mongoose.connect(mongoURI, { useNewUrlParser: true }, () => {
   console.log("The connection with mongod is established");
