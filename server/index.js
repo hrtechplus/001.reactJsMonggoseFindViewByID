@@ -4,10 +4,12 @@ const port = process.env.PORT || 8080;
 const mongoose = require("mongoose");
 const getRouter = require("./routes/get");
 const updateRouter = require("./routes/update");
+import getIdRouter from "./routes/getID";
 // middleware
 app.use(express.json());
 app.use(getRouter);
 app.use(updateRouter);
+app.use(getIdRouter);
 app.listen(port, () => {
   console.log(`Listening on port ${port}`);
 });
