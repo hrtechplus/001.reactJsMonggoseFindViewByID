@@ -4,7 +4,7 @@ const mongoose = require("mongoose");
 const Model = require("./model"); // Replace 'Model' with your actual model name
 
 // Update route
-router.put("/:id", async (req, res) => {
+router.put("/update:id", async (req, res) => {
   try {
     const { id } = req.params;
     const { topic, description, Catagory } = req.body; // Replace 'field1', 'field2', 'field3' with your actual field names
