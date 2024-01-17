@@ -2,13 +2,10 @@ const express = require("express");
 const router = express.Router();
 const getRouter = require("./model");
 
-router.get("/get:id", async (req, res) => {
+router.get("/get", async (req, res) => {
   try {
-    // get id form url
-    const { id } = req.params;
     // Retrieve data from the database
-
-    const data = await getRouter.findById(id);
+    const data = await getRouter.find();
 
     // Send the retrieved data to the client
     res.json(data);
