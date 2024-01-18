@@ -7,7 +7,7 @@ router.get("/gets", (req, res) => {
   const jsonQuote = getRandomQuoteJson();
 
   // Send the JSON data as the response
-  res.json(jsonQuote);
+  res.send(jsonQuote);
 });
 
 module.exports = router;
