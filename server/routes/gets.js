@@ -2,7 +2,7 @@ const express = require("express");
 const router = express.Router();
 const quotes = require("../Database/quotes");
 
-router.get("/", (req, res) => {
+router.get("/gets", (req, res) => {
   // Call the function from quotes.js to get the item
   const item = quotes.getItem();
 
