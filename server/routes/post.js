@@ -3,7 +3,7 @@ const router = express.Router();
 const Post = require("./model");
 
 // POST /api/posts
-router.post("/", async (req, res) => {
+router.post("/posts", async (req, res) => {
   try {
     const { topic, description, category } = req.body;
 
