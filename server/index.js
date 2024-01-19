@@ -5,13 +5,13 @@ const mongoose = require("mongoose");
 const getRouter = require("./routes/get");
 const updateRouter = require("./routes/update");
 const getIDRouter = require("./routes/getID");
-const quotesRouter = require("./routes/gets");
+const testing = require("./routes/gets");
 // middleware
 app.use(express.json());
 app.use(getRouter);
 app.use(updateRouter);
 app.use(getIDRouter);
-app.use(quotesRouter);
+app.use(testing);
 // service start
 app.listen(port, () => {
   console.log(`Listening on port ${port}`);
