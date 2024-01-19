@@ -1,14 +1,8 @@
 const express = require("express");
-const router = express.Router();
-//const getRandomQuoteJson = require("../Database/quotes");
+const app = express();
 
-router.get("/my", (req, res) => {
-  // Call the function from quotes.js to get the JSON data
-  const jsonQuote = getRandomQuoteJson();
-
-  // Send the JSON data as the response
-  // res.send(jsonQuote);
+app.get("/my", (req, res) => {
   res.send("Hello World");
 });
 
-module.exports = router;
+module.exports = app;
