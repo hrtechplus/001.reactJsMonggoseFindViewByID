@@ -6,7 +6,7 @@ const quotes = require("./quotes");
 app.get("/", (req, res) => {
   const randomQuote = quotes();
 
-  res.json(JSON.stringify(randomQuote));
+  res.send(randomQuote);
 });
 
 module.exports = app;
