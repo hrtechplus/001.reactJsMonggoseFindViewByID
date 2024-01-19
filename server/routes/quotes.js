@@ -31,7 +31,7 @@ function getRandomQuote() {
 
 function getRandomQuoteJson() {
   const randomQuote = getRandomQuote();
-  return JSON.stringify(randomQuote);
+  return randomQuote;
 }
 
 module.exports = getRandomQuoteJson;
