@@ -21,17 +21,17 @@ Easy Integration: Simple and straightforward API endpoints for seamless integrat
 
 **Getting Started:**
 
-1.Clone the Repository:  
+1. Clone the Repository:  
 `git clone https://github.com/hrtechplus/Random-inspirational-quotes-API.git
 `
 
-2.Set Up Your Server:
+2. Set Up Your Server:
 Configure and deploy the API on your preferred server platform.
 
-3.Access the API:
+3. Access the API:
 Once deployed, users can make GET requests to your API endpoint to retrieve random inspirational quotes.
 
-4.Contribute:
+4. Contribute:
 If you have ideas for improvement or would like to contribute, feel free to open an issue or submit a pull request.
 
 # Develop By Hasindu Rangika ####
