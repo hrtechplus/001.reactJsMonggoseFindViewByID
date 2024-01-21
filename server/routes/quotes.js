@@ -296,6 +296,53 @@ const quotes = [
     quote: "Life is 10% what happens to us and 90% how we react to it.",
     author: "Charles R. Swindoll",
   },
+  {
+    quote:
+      "The only way to achieve the impossible is to believe it is possible.",
+    author: "Charles Kingsleigh",
+  },
+  {
+    quote:
+      "Success is not the key to happiness. Happiness is the key to success. If you love what you are doing, you will be successful.",
+    author: "Albert Schweitzer",
+  },
+  {
+    quote:
+      "The greatest glory in living lies not in never falling, but in rising every time we fall.",
+    author: "Nelson Mandela",
+  },
+  {
+    quote: "Don't watch the clock; do what it does. Keep going.",
+    author: "Sam Levenson",
+  },
+  {
+    quote: "Believe you can and you're halfway there.",
+    author: "Theodore Roosevelt",
+  },
+  {
+    quote:
+      "Dream big, work hard, stay focused, and surround yourself with good people.",
+    author: "Unknown",
+  },
+  {
+    quote:
+      "The only thing standing between you and your goal is the story you keep telling yourself as to why you can't achieve it.",
+    author: "Jordan Belfort",
+  },
+  {
+    quote:
+      "Success is not the key to happiness. Happiness is the key to success. If you love what you are doing, you will be successful.",
+    author: "Albert Schweitzer",
+  },
+  {
+    quote:
+      "The only way to achieve the impossible is to believe it is possible.",
+    author: "Charles Kingsleigh",
+  },
+  {
+    quote: "In the middle of difficulty lies opportunity.",
+    author: "Albert Einstein",
+  },
 ];
 
 function getRandomQuote() {
