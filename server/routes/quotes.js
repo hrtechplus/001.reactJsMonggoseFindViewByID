@@ -366,6 +366,27 @@ const quotes = [
       "The only place where success comes before work is in the dictionary.",
     author: "Vidal Sassoon",
   },
+  {
+    quote: "Success is not in what you have, but who you are.",
+    author: "Bo Bennett",
+  },
+  {
+    quote: "The best way to predict the future is to create it.",
+    author: "Peter Drucker",
+  },
+  {
+    quote: "Your attitude, not your aptitude, will determine your altitude.",
+    author: "Zig Ziglar",
+  },
+  {
+    quote: "Your time is limited, don't waste it living someone else's life.",
+    author: "Steve Jobs",
+  },
+  {
+    quote:
+      "The only way to achieve the impossible is to believe it is possible.",
+    author: "Charles Kingsleigh",
+  },
 ];
 
 function getRandomQuote() {
