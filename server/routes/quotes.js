@@ -343,6 +343,29 @@ const quotes = [
     quote: "In the middle of difficulty lies opportunity.",
     author: "Albert Einstein",
   },
+  {
+    quote:
+      "Challenges are what make life interesting. Overcoming them is what makes life meaningful.",
+    author: "Joshua J. Marine",
+  },
+  {
+    quote: "Your life does not get better by chance; it gets better by change.",
+    author: "Jim Rohn",
+  },
+  {
+    quote:
+      "The only limit to our realization of tomorrow is our doubts of today.",
+    author: "Franklin D. Roosevelt",
+  },
+  {
+    quote: "Believe you can and you're halfway there.",
+    author: "Theodore Roosevelt",
+  },
+  {
+    quote:
+      "The only place where success comes before work is in the dictionary.",
+    author: "Vidal Sassoon",
+  },
 ];
 
 function getRandomQuote() {
