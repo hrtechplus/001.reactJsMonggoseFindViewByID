@@ -11,7 +11,7 @@ Easy Integration: Simple and straightforward API endpoints for seamless integrat
 
 **To fetch a random inspirational quote, make a GET request to the following endpoint:**
 
-`https://your-api-url.com/api/quotes/random`
+`https://randominspirationalquotes.onrender.com`
 
 **Example Response:**
 
