@@ -44,6 +44,72 @@ const quotes = [
     quote: "It's not about the cards you're dealt, but how you play the hand.",
     author: "Randy Pausch",
   },
+  {
+    quote: "Your time is limited, don't waste it living someone else's life.",
+    author: "Steve Jobs",
+  },
+  {
+    quote: "Believe you can and you're halfway there.",
+    author: "Theodore Roosevelt",
+  },
+  {
+    quote:
+      "The only person you are destined to become is the person you decide to be.",
+    author: "Ralph Waldo Emerson",
+  },
+  {
+    quote: "Don't watch the clock; do what it does. Keep going.",
+    author: "Sam Levenson",
+  },
+  {
+    quote:
+      "The greatest glory in living lies not in never falling, but in rising every time we fall.",
+    author: "Nelson Mandela",
+  },
+  {
+    quote:
+      "The only way to achieve the impossible is to believe it is possible.",
+    author: "Charles Kingsleigh",
+  },
+  {
+    quote:
+      "Success is not just about making money. It's about making a difference.",
+    author: "Unknown",
+  },
+  {
+    quote: "Your attitude, not your aptitude, will determine your altitude.",
+    author: "Zig Ziglar",
+  },
+  {
+    quote: "Life is what happens when you're busy making other plans.",
+    author: "John Lennon",
+  },
+  {
+    quote:
+      "The only limit to our realization of tomorrow will be our doubts of today.",
+    author: "Franklin D. Roosevelt",
+  },
+  {
+    quote: "Opportunities don't happen. You create them.",
+    author: "Chris Grosser",
+  },
+  {
+    quote: "The best way to predict the future is to create it.",
+    author: "Peter Drucker",
+  },
+  {
+    quote: "Success is not in what you have, but who you are.",
+    author: "Bo Bennett",
+  },
+  {
+    quote:
+      "Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work.",
+    author: "Steve Jobs",
+  },
+  {
+    quote: "It always seems impossible until it's done.",
+    author: "Nelson Mandela",
+  },
 ];
 
 function getRandomQuote() {
