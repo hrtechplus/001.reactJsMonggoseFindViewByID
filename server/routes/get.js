@@ -2,12 +2,13 @@ const express = require("express");
 const router = express.Router();
 const getRouter = require("./model");
 
-router.get("/get", async (req, res) => {
+router.get("/about", async (req, res) => {
   try {
     res.json({
       title: "Random-inspirational-quotes-API",
       developer: "Hasindu Rangika",
       github: "https://github.com/hrtechplus",
+      version: "1.0.0",
     });
   } catch (error) {
     console.error(error);
