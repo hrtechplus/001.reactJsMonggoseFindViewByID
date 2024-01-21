@@ -249,6 +249,53 @@ const quotes = [
     quote: "Believe you can and you're halfway there.",
     author: "Theodore Roosevelt",
   },
+  {
+    quote:
+      "The greatest glory in living lies not in never falling, but in rising every time we fall.",
+    author: "Nelson Mandela",
+  },
+  {
+    quote: "It always seems impossible until it's done.",
+    author: "Nelson Mandela",
+  },
+  {
+    quote:
+      "Success is not the key to happiness. Happiness is the key to success. If you love what you are doing, you will be successful.",
+    author: "Albert Schweitzer",
+  },
+  {
+    quote: "Your time is limited, don't waste it living someone else's life.",
+    author: "Steve Jobs",
+  },
+  {
+    quote:
+      "The only way to achieve the impossible is to believe it is possible.",
+    author: "Charles Kingsleigh",
+  },
+  {
+    quote:
+      "Your present circumstances don't determine where you can go; they merely determine where you start.",
+    author: "Nido Qubein",
+  },
+  {
+    quote:
+      "Success is not final, failure is not fatal: It is the courage to continue that counts.",
+    author: "Winston Churchill",
+  },
+  {
+    quote:
+      "Don't be pushed around by the fears in your mind. Be led by the dreams in your heart.",
+    author: "Roy T. Bennett",
+  },
+  {
+    quote:
+      "The only limit to our realization of tomorrow will be our doubts of today.",
+    author: "Franklin D. Roosevelt",
+  },
+  {
+    quote: "Life is 10% what happens to us and 90% how we react to it.",
+    author: "Charles R. Swindoll",
+  },
 ];
 
 function getRandomQuote() {
