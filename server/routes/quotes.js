@@ -227,6 +227,28 @@ const quotes = [
       "The only limit to our realization of tomorrow will be our doubts of today.",
     author: "Franklin D. Roosevelt",
   },
+  {
+    quote:
+      "Success is not just about making money. It's about making a difference.",
+    author: "Unknown",
+  },
+  {
+    quote: "The best way to predict the future is to create it.",
+    author: "Peter Drucker",
+  },
+  {
+    quote:
+      "The only place where success comes before work is in the dictionary.",
+    author: "Vidal Sassoon",
+  },
+  {
+    quote: "Your attitude, not your aptitude, will determine your altitude.",
+    author: "Zig Ziglar",
+  },
+  {
+    quote: "Believe you can and you're halfway there.",
+    author: "Theodore Roosevelt",
+  },
 ];
 
 function getRandomQuote() {
