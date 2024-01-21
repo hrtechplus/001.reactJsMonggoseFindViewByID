@@ -4,7 +4,6 @@ const cors = require("cors");
 const port = process.env.PORT || 8080;
 const mongoose = require("mongoose");
 const getRouter = require("./routes/get");
-const updateRouter = require("./routes/update");
 const getIDRouter = require("./routes/getID");
 const testing = require("./routes/gets");
 // middleware
