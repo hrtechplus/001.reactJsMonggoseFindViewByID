@@ -110,6 +110,30 @@ const quotes = [
     quote: "It always seems impossible until it's done.",
     author: "Nelson Mandela",
   },
+  {
+    quote:
+      "Your present circumstances don't determine where you can go; they merely determine where you start.",
+    author: "Nido Qubein",
+  },
+  {
+    quote:
+      "The only limit to our realization of tomorrow will be our doubts of today.",
+    author: "Franklin D. Roosevelt",
+  },
+  {
+    quote: "Don't be afraid to give up the good to go for the great.",
+    author: "John D. Rockefeller",
+  },
+  {
+    quote:
+      "The difference between a successful person and others is not a lack of strength, not a lack of knowledge, but rather a lack in will.",
+    author: "Vince Lombardi",
+  },
+  {
+    quote:
+      "Success is stumbling from failure to failure with no loss of enthusiasm.",
+    author: "Winston S. Churchill",
+  },
 ];
 
 function getRandomQuote() {
