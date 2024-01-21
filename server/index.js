@@ -10,7 +10,7 @@ const testing = require("./routes/gets");
 app.use(cors());
 app.use(express.json());
 app.use(getRouter);
-app.use(updateRouter);
+
 app.use(getIDRouter);
 app.use(testing);
 // service start
