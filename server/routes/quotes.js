@@ -22,6 +22,28 @@ const quotes = [
       "The only limit to our realization of tomorrow will be our doubts of today.",
     author: "Franklin D. Roosevelt",
   },
+  {
+    quote: "The journey of a thousand miles begins with one step.",
+    author: "Lao Tzu",
+  },
+  {
+    quote:
+      "Success is stumbling from failure to failure with no loss of enthusiasm.",
+    author: "Winston S. Churchill",
+  },
+  {
+    quote:
+      "Do not wait to strike till the iron is hot, but make it hot by striking.",
+    author: "William Butler Yeats",
+  },
+  {
+    quote: "The only impossible journey is the one you never begin.",
+    author: "Tony Robbins",
+  },
+  {
+    quote: "It's not about the cards you're dealt, but how you play the hand.",
+    author: "Randy Pausch",
+  },
 ];
 
 function getRandomQuote() {
